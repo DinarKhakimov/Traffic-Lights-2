@@ -30,6 +30,8 @@ class ViewController: UIViewController {
         yellowLight.alpha = lightIsOff
         greenLight.alpha = lightIsOff
         
+        print("\(startButton.frame.height) and \(startButton.frame.height)")
+        print("\(redLight.frame.height) and \(redLight.frame.height)")
         
     }
     
@@ -42,6 +44,8 @@ class ViewController: UIViewController {
         startButton.setTitleColor(.white, for: .normal)
         startButton.setTitle("Start", for: .normal)
         
+        print("View Will Layout Subviews \(startButton.frame.height) and \(startButton.frame.height)")
+        print("View Will Layout Subviews \(redLight.frame.height) and \(redLight.frame.height)")
     }
     
     @IBAction func startActionButton() {
